@@ -8,8 +8,11 @@
 body{
     font-family: 'Be Vietnam', sans-serif;
     font-weight: 500;
+    background: url(../images/bg-tablet-pattern.svg) no-repeat  820px -250px;
+    overflow-x: hidden; 
     
 }
+/*navbar*/
 
 .navbutton-color{
     background: hsl(12, 88%, 59%);
@@ -20,4 +23,18 @@ body{
 }
 .weig{
     font-weight: bolder;
+}
+
+/*landedpage*/
+.landedpage {
+    height: 80vh;
+
+}
+
+.space{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.bb{
+    background: transparent;
 }
