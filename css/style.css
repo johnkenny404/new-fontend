@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*utilities*/
+body{
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 500;
+    
+}
+
+.navbutton-color{
+    background: hsl(12, 88%, 59%);
+    border-style: none;
+}
+.navbutton-color:hover {
+    background: hsl(13, 100%, 96%);
+}
+.weig{
+    font-weight: bolder;
+}
