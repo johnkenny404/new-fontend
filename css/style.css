@@ -35,6 +35,25 @@ body{
     margin-top: 5rem;
     margin-bottom: 3rem;
 }
-.bb{
+.transparent{
     background: transparent;
+}
+
+@media(max-width:767px){
+    .space{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .space .ms:first-child{
+        order: 1;
+    }
+    .width{
+        width: 15rem;
+        align-content: center;
+    }
+    .moving{
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    
 }
