@@ -55,5 +55,22 @@ body{
         justify-content: center;
         margin-top: 1rem;
     }
-    
+    body{
+       background: url(../images/bg-tablet-pattern.svg) no-repeat  55px -25px;
+       background-size:22rem;
+    }
+  
+}
+
+/*article section*/
+.movingright{
+    margin-left: 7.2rem;
+}
+.navbutton-color1{
+    background: hsl(12, 88%, 59%);
+    border-style: none;
+    color: white;
+}
+.image{
+    background: url(../images/bg-tablet-pattern.svg)no-repeat -500px 250px;
 }
